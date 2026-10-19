@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Gulf Coast Flood Alliance</title>
+
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      padding: 40px 12px;
+      background: #f0f2f5;
+      color: #050505;
+      font-family: Arial, Helvetica, sans-serif;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    .post {
+      width: 500px;
+      max-width: 100%;
+      margin: 0 auto;
+      overflow: hidden;
+      background: #ffffff;
+      border: 1px solid #e4e6eb;
+      border-radius: 8px;
+      box-shadow:
+        0 1px 2px rgba(0, 0, 0, 0.10),
+        0 2px 8px rgba(0, 0, 0, 0.04);
+    }
+
+    .header {
+      display: flex;
+      align-items: flex-start;
+      gap: 10px;
+      padding: 16px 16px 0;
+    }
+
+    .logo {
+      width: 42px;
+      height: 42px;
+      flex-shrink: 0;
+    }
+
+    .identity {
+      flex: 1;
+      min-width: 0;
+      padding-top: 2px;
+    }
+
+    .organization {
+      font-size: 15px;
+      font-weight: 700;
+      line-height: 20px;
+    }
+
+    .timestamp {
+      display: flex;
+      align-items: center;
+      gap: 5px;
+      margin-top: 2px;
+      color: #65676b;
+      font-size: 13px;
+      line-height: 18px;
+    }
+
+    .globe {
+      width: 12px;
+      height: 12px;
+      flex-shrink: 0;
+    }
+
+    .menu {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 30px;
+      height: 30px;
+      margin-top: 1px;
+      color: #65676b;
+      flex-shrink: 0;
+    }
+
+    .menu svg {
+      width: 22px;
+      height: 22px;
+    }
+
+    .ai-label {
+      display: flex;
+      align-items: center;
+      gap: 7px;
+      width: fit-content;
+      max-width: calc(100% - 32px);
+      margin: 12px 16px 0;
+      padding: 8px 10px;
+      background: #f0f2f5;
+      border: 1px solid #e4e6eb;
+      border-radius: 6px;
+      color: #4b4f56;
+      font-size: 13px;
+      line-height: 19px;
+    }
+
+    .label-text {
+      min-width: 0;
+    }
+
+    .ai-label strong {
+      color: #33363b;
+      font-weight: 600;
+    }
+
+    .info-icon {
+      width: 17px;
+      height: 17px;
+      flex-shrink: 0;
+    }
+
+    .label-chevron {
+      width: 14px;
+      height: 14px;
+      margin-left: 3px;
+      flex-shrink: 0;
+    }
+
+    .message {
+      padding: 14px 16px 16px;
+      font-size: 15px;
+      line-height: 1.5;
+      overflow-wrap: break-word;
+    }
+
+    .message p {
+      margin: 0;
+    }
+
+    .message .hashtags {
+      margin-top: 10px;
+      color: #216fdb;
+    }
+
+    .actions {
+      display: flex;
+      margin: 0 16px;
+      padding: 4px 0;
+      border-top: 1px solid #ced0d4;
+    }
+
+    .action {
+      display: flex;
+      flex: 1;
+      align-items: center;
+      justify-content: center;
+      gap: 7px;
+      min-height: 40px;
+      color: #65676b;
+      font-size: 14px;
+      font-weight: 600;
+    }
+
+    .action svg {
+      width: 20px;
+      height: 20px;
+      flex-shrink: 0;
+      fill: none;
+      stroke: currentColor;
+      stroke-width: 1.7;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+    }
+
+    @media (max-width: 360px) {
+      body {
+        padding: 24px 8px;
+      }
+
+      .header {
+        gap: 8px;
+      }
+
+      .action {
+        gap: 5px;
+        font-size: 13px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <article class="post" aria-label="Gulf Coast Flood Alliance post">
+
+    <header class="header">
+
+      <svg class="logo" viewBox="0 0 42 42"
+           role="img" aria-label="Blue circular wave logo">
+        <circle cx="21" cy="21" r="21" fill="#2374cf"/>
+        <path
+          d="M8 17c4-5 9 5 13 0s9 5 13 0
+             M8 25c4-5 9 5 13 0s9 5 13 0"
+          fill="none"
+          stroke="#ffffff"
+          stroke-width="2.5"
+          stroke-linecap="round"/>
+      </svg>
+
+      <div class="identity">
+        <div class="organization">Gulf Coast Flood Alliance</div>
+
+        <div class="timestamp">
+          <span>2h · Public</span>
+
+          <svg class="globe" viewBox="0 0 16 16"
+               fill="none"
+               stroke="currentColor"
+               stroke-width="1.2"
+               aria-hidden="true">
+            <circle cx="8" cy="8" r="6.2"/>
+            <ellipse cx="8" cy="8" rx="2.7" ry="6.2"/>
+            <path d="M2 8h12 M3 4.8h10 M3 11.2h10"/>
+          </svg>
+        </div>
+      </div>
+
+      <div class="menu" aria-hidden="true">
+        <svg viewBox="0 0 24 24" fill="currentColor">
+          <circle cx="5" cy="12" r="1.8"/>
+          <circle cx="12" cy="12" r="1.8"/>
+          <circle cx="19" cy="12" r="1.8"/>
+        </svg>
+      </div>
+
+    </header>
+
+    <div class="ai-label">
+
+      <svg class="info-icon" viewBox="0 0 20 20"
+           aria-hidden="true">
+        <circle cx="10" cy="10" r="8"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="1.5"/>
+        <circle cx="10" cy="6" r="1"
+                fill="currentColor"/>
+        <path d="M10 9v5"
+              stroke="currentColor"
+              stroke-width="1.7"/>
+      </svg>
+
+      <span class="label-text"><strong>AI info:</strong> This post was written with AI.</span>
+
+      <svg class="label-chevron" viewBox="0 0 16 16"
+           aria-hidden="true">
+        <path d="M4 6l4 4 4-4"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="1.7"
+              stroke-linecap="round"
+              stroke-linejoin="round"/>
+      </svg>
+
+    </div>
+
+    <div class="message">
+      <p>After heavy rain, the creek in Cedar Falls rose overnight and covered streets in mud. Water broke through fences and washed out small bridges. Many buildings had water in every room. Roads are now closed for repairs. Communities like this need stronger flood protection before the next storm.</p>
+
+      <p class="hashtags">#CedarFallsFlood #FloodRecovery</p>
+    </div>
+
+    <footer class="actions">
+
+      <div class="action">
+        <svg viewBox="0 0 24 24" aria-hidden="true">
+          <path d="M7 10H3v11h4z"/>
+          <path d="M7 10l4-7c.5-.8 2-.4 2 1v5h6
+                   c1.5 0 2.2 1.1 1.8 2.5l-2 7.5
+                   c-.3 1.2-1 2-2.3 2H7"/>
+        </svg>
+        <span>Like</span>
+      </div>
+
+      <div class="action">
+        <svg viewBox="0 0 24 24" aria-hidden="true">
+          <path d="M20 14a4 4 0 0 1-4 4H9l-5 4v-5
+                   a4 4 0 0 1-2-3V7a4 4 0 0 1 4-4h10
+                   a4 4 0 0 1 4 4z"/>
+        </svg>
+        <span>Comment</span>
+      </div>
+
+      <div class="action">
+        <svg viewBox="0 0 24 24" aria-hidden="true">
+          <path d="M14 4l8 7-8 7v-4
+                   c-5.5 0-9 1.7-12 6
+                   0-7.5 4.5-12 12-12z"/>
+        </svg>
+        <span>Share</span>
+      </div>
+
+    </footer>
+
+  </article>
+
+</body>
+</html>
